@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Experiments
-permalink: /Experiments/
+permalink: "/Experiments/"
+layout: page
 ---
 
 <!-- <a href="/name">name</a> | <a href="https://github.com/PlatypodeCode/name">Git</a> -->

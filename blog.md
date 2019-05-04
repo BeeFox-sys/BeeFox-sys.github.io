@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Blogs
-permalink: /Blog/
+permalink: "/Blog/"
+layout: page
 ---
 
 # My Blogs
