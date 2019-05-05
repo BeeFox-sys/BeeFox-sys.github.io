@@ -9,7 +9,7 @@ Created with <a href="https://twinery.org">twine</a>
 
 <div class="grid-display">
   {% for story in site.data.stories.stories %}
-  <a href="{{story.link || relative_url}}"><div style="height:auto;"><span class="story">
+  <a href="{{story.link | relative_url}}"><div style="height:auto;"><span class="story">
   <h3>{{story.name}}</h3>
   <hr>
   <h5>{{story.blurb}}</h5>
