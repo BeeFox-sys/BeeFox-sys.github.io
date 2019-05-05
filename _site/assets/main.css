@@ -377,12 +377,17 @@ table {
   border-radius: 10px;
   text-align: center;
   height: 100px;
-  line-height: 90px; }
+  line-height: 90px;
+  display: block; }
+
+.grid-display div:hover {
+  background: #f8eed3; }
 
 .grid-display div span {
   display: inline-block;
   vertical-align: middle;
-  line-height: normal; }
+  line-height: normal;
+  font-size: 1.7em; }
 
 /**
  * Syntax highlighting styles
