@@ -1,0 +1,9 @@
+{
+  "stories":[
+  ],
+  "Template":{
+    "name":"Name",
+    "link": "Stories/Story.html",
+    "blurb": "Blurb"
+  }
+}
