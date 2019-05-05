@@ -1,10 +1,5 @@
 {
   "stories":[
-    {
-      "name":"Name",
-      "link": "Stories/Story.html",
-      "blurb": "Blurb"
-    }
   ],
   "Template":{
     "name":"Name",
