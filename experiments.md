@@ -8,6 +8,6 @@ layout: page
 
 <div class="grid-display">
 {% for experiment in site.data.experiments.experiments %}
-  <div><span><a href="https://git.platypodes.xyz/{{experiment.short}}">{{experiment.display}}</a><h4><a href="https://github.com/PlatypodeCode/{{experiment.short}}">Git</a></h4></span></div>
+  <div><span><h1><a href="https://git.platypodes.xyz/{{experiment.short}}">{{experiment.display}}</a></h1><a href="https://github.com/PlatypodeCode/{{experiment.short}}">Git</a></span></div>
 {% endfor %}    
 </div>

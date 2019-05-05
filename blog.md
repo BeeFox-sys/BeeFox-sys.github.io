@@ -7,7 +7,7 @@ layout: page
 # My Blogs
 
 <div class="grid-display">
-  <a href="https://blog.platypodes.xyz/art"><div><span>Art Blog</span></div></a>
-  <a href="https://blog.platypodes.xyz/writings"><div><span>General Blog</span></div></a>
-  <a href="https://blog.platypodes.xyz/short-stories"><div><span>Short Story Blog</span></div></a>
+  {% for link in site.data.blogs.links %}
+  <a href="{{link.link}}"><div><span><h1>{{link.display}}</h1></span></div></a>
+  {% endfor %}
 </div>
