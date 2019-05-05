@@ -13,6 +13,3 @@ baseurl: ''
 url: ''
 github_username: platypodeCode
 markdown: kramdown
-theme: minima
-plugins:
-- jekyll-feed
