@@ -1,5 +1,10 @@
 {
   "stories":[
+    {
+      "name":"Chase The stars",
+      "link": "Stories/Chase The Stars Demo.html",
+      "blurb": "Sent to work lightyears away, you must survive the day to day [DEMO]"
+    }
   ],
   "Template":{
     "name":"Name",

@@ -1,5 +1,5 @@
 ---
-//title: Interactive Stories
+title: Interactive Stories
 permalink: "/Stories/"
 layout: page
 ---
