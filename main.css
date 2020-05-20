@@ -6,8 +6,8 @@ html, body {
 
 #container{
     display: grid;
-    grid-template-columns: repeat(1, 150px);
-    grid-auto-rows: 160px;
+    grid-template-columns: repeat(1, 160px);
+    grid-auto-rows: 170px;
     gap: 15px;
     width: 159px;
     margin-left: auto;
@@ -20,22 +20,22 @@ html, body {
 
 @media only screen and (min-width : 350px) {
     #container{
-        grid-template-columns: repeat(2, 150px);
-        width: 324px;
+        grid-template-columns: repeat(2, 160px);
+        width: 344px;
     }
 }
 
 @media only screen and (min-width : 500px) {
     #container{
-        grid-template-columns: repeat(3, 150px);
-        width: 489px;
+        grid-template-columns: repeat(3, 160px);
+        width: 519px;
     }
 }
 
 @media only screen and (min-width : 650px) {
     #container{
-        grid-template-columns: repeat(4, 150px);
-        width: 654px;
+        grid-template-columns: repeat(4, 160px);
+        width: 694px;
     }
 }
 
@@ -44,8 +44,9 @@ html, body {
     height: 100%;
     grid-row-end: span 1;
     grid-column-end: span 1;
-    border: 2px hsl(0, 0%, 80%) solid;
-    border-radius: 2px;
+    border: 2px black solid;
+    box-shadow: 4px 6px black;
+    border-radius: .5px;
     text-align: center;
     color: black;
     text-decoration: none;
@@ -54,7 +55,9 @@ html, body {
 }
 
 .card:hover{
-    border-color: black;
+    position: relative;
+    bottom: 3px;
+    box-shadow: 6px 11px black;
 }
 
 #container a{

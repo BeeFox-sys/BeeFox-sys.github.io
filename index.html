@@ -13,25 +13,38 @@
     <meta property="author" content="BeeFox">
     <meta name="og:description" content="The home of my projects">
     <meta name="twitter:description" content="The home of my projects">
+    <script>
+        function load(){
+            let cards = document.getElementById("container")
+            for (const card of cards.children) {
+                let num = Math.random();
+                if(num < 0.15){
+                    card.setAttribute("style", "grid-row-end:span 2")
+                } else if (num < 0.3){
+                    card.setAttribute("style", "grid-column-end:span 2")
+                }
+            }
+        }
+        
+    </script>
 </head>
-<body onload="randomizeButtons()">
+<body onload="load()">
     <div style="display:flex;justify-content:center;align-items:center; margin-top: 20px;"><h1>Beefox.xyz</h1></div>
 
     <div id="container">
-        <a href="http://beefox.xyz/colouredcurves/"><div class=card><h2>Coloured Curves</h2><hr><p>Classic generative art with a splash of colour</p></div></a>
-        <a href="https://beefox.xyz/buttons"><div class=card><h2>Buttons</h2><hr><p>A small site for when you just want to press buttons</p></div></a>
-        <a href="https://beefox.xyz/traffic-light"><div class=card><h2>Traffic Light</h2><hr><p>Change some colours, play some sounds</p></div></a>
-        <a href="https://beefox.xyz/AttrcationSliders"><div class=card><h2>Attraction Sliders</h2><hr><p>Help explain how you love!</p></div></a>
-        <a href="https://beefox.xyz/switcher"><div class=card><h2>Switcher</h2><hr><p>Switch your pluralkit members</p></div></a>
-        <a href="https://beefox.xyz/CommunicationCards"><div class=card><h3>Communication Cards</h3><hr><p>Help you communicate when you can't speak</p></div></a>
-        <a href="https://beefox.xyz/RainbowDraw"><div class=card><h2>Rainbow Draw</h2><hr><p>Draw the rainbow!</p></div></a>
-        <a href="https://beefox.xyz/RainbowSpinner"><div class=card><h2>Rainbow Spinner</h2><hr><p>Watch the patterns go around</p></div></a>
-        <a href="https://beefox.xyz/InfinityLoad"><div class=card><h2>Infinity Load</h2><hr><p>A small loading animation</p></div></a>
-        <a href="https://beefox.xyz/Cube"><div class=card><h2>Cube</h2><hr><p>Cube.</p></div></a>
-        <a href="https://beefox.xyz/Hacknet"><div class=card><h2>Hacknet</h2><hr><p>A short simulation of the end of the game hacknet (SPOILERS!)</p></div></a>
-        <a href="https://beefox.xyz/Fireflies"><div class=card><h2>Fireflies</h2><hr><p>A simulation of Fireflies (May cause lag on some devices)</p></div></a>
-        <a href="https://beefox.xyz/HelpingBlobs"><div class=card><h2>Helping Blobs</h2><hr><p>A prototype of a virtual pet, based on the Blobs Experiment</p></div></a>
-        <a href="https://beefox.xyz/blobs"><div class=card><h2>Blobs</h2><hr><p>Throw around some blobs, a new bob each refresh (or if you shake a mobile device)</p></div></a>
+        <a href="./colouredcurves/"><div class=card><h2>Coloured Curves</h2><hr><p>Classic generative art with a splash of colour</p></div></a>
+        <a href="./buttons"><div class=card><h2>Buttons</h2><hr><p>A small site for when you just want to press buttons</p></div></a>
+        <a href="./traffic-light"><div class=card><h2>Traffic Light</h2><hr><p>Change some colours, play some sounds</p></div></a>
+        <a href="./AttrcationSliders"><div class=card><h2>Attraction Sliders</h2><hr><p>Help explain how you love!</p></div></a>
+        <a href="./CommunicationCards"><div class=card><h3>Communication Cards</h3><hr><p>Help you communicate when you can't speak</p></div></a>
+        <a href="./RainbowDraw"><div class=card><h2>Rainbow Draw</h2><hr><p>Draw the rainbow!</p></div></a>
+        <a href="./RainbowSpinner"><div class=card><h2>Rainbow Spinner</h2><hr><p>Watch the patterns go around</p></div></a>
+        <a href="./InfinityLoad"><div class=card><h2>Infinity Load</h2><hr><p>A small loading animation</p></div></a>
+        <a href="./Cube"><div class=card><h2>Cube</h2><hr><p>Cube.</p></div></a>
+        <a href="./Hacknet"><div class=card><h2>Hacknet</h2><hr><p>A short simulation of the end of the game hacknet (SPOILERS!)</p></div></a>
+        <a href="./Fireflies"><div class=card><h2>Fireflies</h2><hr><p>A simulation of Fireflies (May cause lag on some devices)</p></div></a>
+        <a href="./HelpingBlobs"><div class=card><h2>Helping Blobs</h2><hr><p>A prototype of a virtual pet, based on the Blobs Experiment</p></div></a>
+        <a href="./blobs"><div class=card><h2>Blobs</h2><hr><p>Throw around some blobs, a new bob each refresh (or if you shake a mobile device)</p></div></a>
         
 
     </div>
